@@ -24,4 +24,23 @@ A sleek and responsive movie browsing website built with React. The app fetches 
 
 ## 📂 Project Structure
 
+src/
+├── components/
+│ ├── MovieList.js
+│ ├── MovieCard.js
+│ └── Navbar.js
+├── pages/
+│ └── Home.js
+├── App.js
+└── index.js
 
+📤 Deployment
+This project is deployed using Netlify.
+
+🙌 Acknowledgements
+Public movie API used to fetch movie data
+
+Icons and posters provided via image links from the API
+
+📧 Contact
+For questions or feedback, feel free to contact me at [matjeni.sphiwe1@gmail.com].
