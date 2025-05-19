@@ -12,7 +12,7 @@ export const Footer = () => {
           >
             <img src={Logo} className="mr-3 h-6 sm:h-8" alt="cinemate Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              OJmovies
+              Zeemovies
             </span>
           </Link>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
@@ -41,7 +41,7 @@ export const Footer = () => {
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2030{" "}
           <Link to="/" className=" hover:underline">
-            OJmovies™
+            Zeemovies™
           </Link>
           . All Rights Reserved.
         </span>
