@@ -1,0 +1,55 @@
+API Read Access Token:
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmOTYxNjUzNWFiN
+DQyNDY4OTEwMzA1NTg1YWVkODQ1ZiIsIm5iZiI6MTc0NzE
+yMDAyOC41NTMsInN1YiI6IjY4MjJlZjljYWZjOT
+Y2NGQ4NTVhMmYyNiIsInNjb3BlcyI6WyJhcGlfc
+mVhZCJdLCJ2ZXJzaW9uIjoxfQ.2HR41k7CIB3lcNhGNKMQo24J6Vyv54zngNkXDQc4NDQ
+
+API Key
+f9616535ab442468910305585aed845f
+
+base url: https://api.themoviedb.org/3/
+
+`https://api.themoviedb.org/3/${apiPath}?api_key=f9616535ab442468910305585aed845f`
+
+search key api.
+ 'https://api.themoviedb.org/3/search/movie?api_key=f9616535ab442468910305585aed845f' \
+ 
+
+Now playing..
+'https://api.themoviedb.org/3/discover/movie?api_key=f9616535ab442468910305585aed845f'
+    
+
+popular..
+
+curl --request GET \
+     --url 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200' \
+     --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmOTYxNjUzNWFiNDQyNDY4OTEwMzA1NTg1YWVkODQ1ZiIsIm5iZiI6MTc0NzEyMDAyOC41NTMsInN1YiI6IjY4MjJlZjljYWZjOTY2NGQ4NTVhMmYyNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.2HR41k7CIB3lcNhGNKMQo24J6Vyv54zngNkXDQc4NDQ' \
+     --header 'accept: application/json'
+..
+
+https://api.themoviedb.org/3/discover/movie?include_adult=true&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}
+
+'https://api.themoviedb.org/3/discover/movie?api_key=f9616535ab442468910305585aed845f&sort_by=popularity.desc' \
+    
+
+Top Rated..
+'https://api.themoviedb.org/3/discover/movie?api_key=f9616535ab442468910305585aed845f&sort_by=vote_average.desc&without_genres=99,10755&vote_count.gte=200' \
+    
+upcomning
+'https://api.themoviedb.org/3/discover/movie?api_key=f9616535ab442468910305585aed845f&sort_by=popularity.desc&with_release_type=2|3&release_date.gte={min_date}&release_date.lte={max_date}' \
+
+
+Now playing..
+
+'https://api.themoviedb.org/3/discover/movie?api_key=f9616535ab442468910305585aed845f&sort_by=popularity.desc&with_release_type=2|3' \
+
+
+
+
+
+individual
+
+     --url https://api.themoviedb.org/3/movie/movie_id?api_key=f9616535ab442468910305585aed845f \
+
+
