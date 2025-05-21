@@ -1,10 +1,2 @@
-export { MovieList } from "./MovieList";
-export { MovieDetail } from "./MovieDetail";
-export { Search } from "./Search";
-export { PagesNotFound } from "./PagesNotFound";
-
-function index() {
-  return <div></div>;
-}
-
-export default index;
+export { Home } from "./Home";
+export { Cart } from "./Cart";

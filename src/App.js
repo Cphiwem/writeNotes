@@ -1,15 +1,14 @@
-import React from "react";
-import AllRoutes from "./routes/AllRoutes";
-import { Header, Footer } from "./components";
-
+import { AllRoutes } from "./routes/AllRoutes";
+import { Header } from "./components/Header";
 import "./App.css";
 
-export const App = () => {
+function App() {
   return (
     <div className="App">
       <Header />
       <AllRoutes />
-      <Footer />
     </div>
   );
-};
+}
+
+export default App;
