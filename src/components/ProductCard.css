@@ -47,13 +47,14 @@
 }
 
 .productCard .remove {
-  border-style: solid; /* Or your desired style (dotted, dashed, etc.) */
-  border-color: #ac0d14;
-  background-color: #ac0d14; /* Optional: a different background for remove */
-  color: #ffffff; /* Ensure text color is still readable */
+  /* border: 0px; */
+  background-color: #ac0d14;
+  /* color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer; */
 }
 
 .productCard .remove:hover {
-  border-color: #8e090f;
-  background-color: #c9302c; /* Optional: darker background on hover */
+  background-color: #8e090f;
 }
