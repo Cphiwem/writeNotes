@@ -1,12 +1,12 @@
-import { RoutesAll } from "./routes/RoutesAll";
-import { Footer, Header } from "./components";
+import { Header, Footer } from "./components";
+import { AllRoutes } from "./routes/AllRoutes";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App dark:bg-dark">
+    <div className="App">
       <Header />
-      <RoutesAll />
+      <AllRoutes />
       <Footer />
     </div>
   );
